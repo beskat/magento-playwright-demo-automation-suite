@@ -1,0 +1,33 @@
+{
+  "name": "magento-playwright-demo-automation-suite",
+  "version": "1.0.0",
+  "description": "This is a demo automation suite for Magento",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beskat/magento-playwright-demo-automation-suite.git"
+  },
+  "keywords": [
+    "Playwright",
+    "Typescript",
+    "Cucumber"
+  ],
+  "author": "Beskat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beskat/magento-playwright-demo-automation-suite/issues"
+  },
+  "homepage": "https://github.com/beskat/magento-playwright-demo-automation-suite#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.46.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.46.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
